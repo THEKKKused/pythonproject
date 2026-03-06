@@ -1,0 +1,2025 @@
+{
+  "generated_at": "2026-02-26 15:40:15",
+  "run_meta": {
+    "mode": "calibration",
+    "stage_temps": [
+      -30.0,
+      35.0,
+      70.0
+    ],
+    "temp_tol": 2.0,
+    "chamber_stable_s": 120,
+    "sensor_stable_s": 600,
+    "a_range_thresh": 500.0,
+    "min_samples": 30,
+    "use_chamber": true,
+    "chamber_ip": "192.168.50.2",
+    "chamber_port": 8000,
+    "iotdb_enable": true,
+    "iotdb_host": "127.0.0.1",
+    "iotdb_port": 6667,
+    "iotdb_sg": "root.h2",
+    "iotdb_downsample_ms": 1000,
+    "do_60c_verify": true,
+    "verify_temp": 60.0,
+    "verify_wait_s": 600,
+    "started_at": "2026-02-26 13:58:02"
+  },
+  "sensors": {
+    "d_33": {
+      "port": "COM16",
+      "sn_hex_ascii": "33 33 00 00 00 00 00 00 00 00 00 00    (ASCII: 33..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16024,
+          "temp": -30.0,
+          "e": 550899.0,
+          "rt": 5508990,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19099,
+          "temp": 35.0,
+          "e": 683755.0,
+          "rt": 6837550,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 20624,
+          "temp": 69.6,
+          "e": 753177.0,
+          "rt": 7531770,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5508990,
+            -30.0
+          ],
+          [
+            6837550,
+            35.0
+          ],
+          [
+            7531770,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5508990,
+          "e": 550899.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 6837550,
+          "e": 683755.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7531770,
+          "e": 753177.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16024,
+            -30.0
+          ],
+          [
+            19099,
+            35.0
+          ],
+          [
+            20624,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16024,
+          "adc_u24": 16024
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19099,
+          "adc_u24": 19099
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 20624,
+          "adc_u24": 20624
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.84000000000001,
+        "final_err": 0.7100000000000009,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "FAIL_AD_WRITE",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_34": {
+      "port": "COM15",
+      "sn_hex_ascii": "33 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 34..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16124,
+          "temp": -30.0,
+          "e": 553259.0,
+          "rt": 5532590,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19191,
+          "temp": 35.0,
+          "e": 686618.0,
+          "rt": 6866180,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 20746,
+          "temp": 69.6,
+          "e": 756943.0,
+          "rt": 7569430,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5532590,
+            -30.0
+          ],
+          [
+            6866180,
+            35.0
+          ],
+          [
+            7569430,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5532590,
+          "e": 553259.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 6866180,
+          "e": 686618.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7569430,
+          "e": 756943.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16124,
+            -30.0
+          ],
+          [
+            19191,
+            35.0
+          ],
+          [
+            20746,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16124,
+          "adc_u24": 16124
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19191,
+          "adc_u24": 19191
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 20746,
+          "adc_u24": 20746
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.902,
+        "final_err": 0.7719999999999914,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "FAIL_AD_WRITE",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_05": {
+      "port": "COM31",
+      "sn_hex_ascii": "30 35 00 00 00 00 00 00 00 00 00 00    (ASCII: 05..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16051,
+          "temp": -30.0,
+          "e": 556813.0,
+          "rt": 5568130,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19145,
+          "temp": 35.0,
+          "e": 692001.0,
+          "rt": 6920010,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 20723,
+          "temp": 69.6,
+          "e": 763661.0,
+          "rt": 7636610,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5568130,
+            -30.0
+          ],
+          [
+            6920010,
+            35.0
+          ],
+          [
+            7636610,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5568130,
+          "e": 556813.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 6920010,
+          "e": 692001.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7636610,
+          "e": 763661.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16051,
+            -30.0
+          ],
+          [
+            19145,
+            35.0
+          ],
+          [
+            20723,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16051,
+          "adc_u24": 16051
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19145,
+          "adc_u24": 19145
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 20723,
+          "adc_u24": 20723
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.48,
+        "final_err": 0.3499999999999872,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_36": {
+      "port": "COM18",
+      "sn_hex_ascii": "33 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 36..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16438,
+          "temp": -30.0,
+          "e": 568452.0,
+          "rt": 5684520,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19515,
+          "temp": 35.0,
+          "e": 705276.0,
+          "rt": 7052760,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 21083,
+          "temp": 69.6,
+          "e": 777447.0,
+          "rt": 7774470,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5684520,
+            -30.0
+          ],
+          [
+            7052760,
+            35.0
+          ],
+          [
+            7774470,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5684520,
+          "e": 568452.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 7052760,
+          "e": 705276.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7774470,
+          "e": 777447.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16438,
+            -30.0
+          ],
+          [
+            19515,
+            35.0
+          ],
+          [
+            21083,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16438,
+          "adc_u24": 16438
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19515,
+          "adc_u24": 19515
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 21083,
+          "adc_u24": 21083
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.696000000000005,
+        "final_err": 0.5659999999999954,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "FAIL_AD_WRITE",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_49": {
+      "port": "COM32",
+      "sn_hex_ascii": "34 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 49..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16404,
+          "temp": -30.0,
+          "e": 566236.0,
+          "rt": 5662360,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19489,
+          "temp": 35.0,
+          "e": 703573.0,
+          "rt": 7035730,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 21053,
+          "temp": 69.6,
+          "e": 775499.0,
+          "rt": 7754990,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5662360,
+            -30.0
+          ],
+          [
+            7035730,
+            35.0
+          ],
+          [
+            7754990,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5662360,
+          "e": 566236.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 7035730,
+          "e": 703573.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7754990,
+          "e": 775499.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16404,
+            -30.0
+          ],
+          [
+            19489,
+            35.0
+          ],
+          [
+            21053,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16404,
+          "adc_u24": 16404
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19489,
+          "adc_u24": 19489
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 21053,
+          "adc_u24": 21053
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.56,
+        "final_err": 0.4299999999999926,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_38": {
+      "port": "COM19",
+      "sn_hex_ascii": "33 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 38..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16312,
+          "temp": -30.0,
+          "e": 554128.0,
+          "rt": 5541280,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19388,
+          "temp": 35.0,
+          "e": 687449.0,
+          "rt": 6874490,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 20952,
+          "temp": 69.6,
+          "e": 757478.0,
+          "rt": 7574780,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5541280,
+            -30.0
+          ],
+          [
+            6874490,
+            35.0
+          ],
+          [
+            7574780,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5541280,
+          "e": 554128.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 6874490,
+          "e": 687449.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7574780,
+          "e": 757478.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16312,
+            -30.0
+          ],
+          [
+            19388,
+            35.0
+          ],
+          [
+            20952,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16312,
+          "adc_u24": 16312
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19388,
+          "adc_u24": 19388
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 20952,
+          "adc_u24": 20952
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.83,
+        "final_err": 0.6999999999999886,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "FAIL_AD_WRITE",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_50": {
+      "port": "COM28",
+      "sn_hex_ascii": "35 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 50..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16152,
+          "temp": -30.0,
+          "e": 552919.0,
+          "rt": 5529190,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19189,
+          "temp": 35.0,
+          "e": 685178.0,
+          "rt": 6851780,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 20755,
+          "temp": 69.6,
+          "e": 755558.0,
+          "rt": 7555580,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5529190,
+            -30.0
+          ],
+          [
+            6851780,
+            35.0
+          ],
+          [
+            7555580,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5529190,
+          "e": 552919.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 6851780,
+          "e": 685178.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7555580,
+          "e": 755558.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16152,
+            -30.0
+          ],
+          [
+            19189,
+            35.0
+          ],
+          [
+            20755,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16152,
+          "adc_u24": 16152
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19189,
+          "adc_u24": 19189
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 20755,
+          "adc_u24": 20755
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.746,
+        "final_err": 0.6159999999999926,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_07": {
+      "port": "COM33",
+      "sn_hex_ascii": "30 37 00 00 00 00 00 00 00 00 00 00    (ASCII: 07..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16181,
+          "temp": -30.0,
+          "e": 539912.0,
+          "rt": 5399120,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19328,
+          "temp": 35.0,
+          "e": 673043.0,
+          "rt": 6730430,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 20888,
+          "temp": 69.6,
+          "e": 742892.0,
+          "rt": 7428920,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5399120,
+            -30.0
+          ],
+          [
+            6730430,
+            35.0
+          ],
+          [
+            7428920,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5399120,
+          "e": 539912.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 6730430,
+          "e": 673043.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7428920,
+          "e": 742892.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16181,
+            -30.0
+          ],
+          [
+            19328,
+            35.0
+          ],
+          [
+            20888,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16181,
+          "adc_u24": 16181
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19328,
+          "adc_u24": 19328
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 20888,
+          "adc_u24": 20888
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.462,
+        "final_err": 0.33199999999999363,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_41": {
+      "port": "COM12",
+      "sn_hex_ascii": "34 31 00 00 00 00 00 00 00 00 00 00    (ASCII: 41..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16047,
+          "temp": -30.0,
+          "e": 548904.0,
+          "rt": 5489040,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19065,
+          "temp": 35.0,
+          "e": 680008.0,
+          "rt": 6800080,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 20594,
+          "temp": 69.6,
+          "e": 749920.0,
+          "rt": 7499200,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5489040,
+            -30.0
+          ],
+          [
+            6800080,
+            35.0
+          ],
+          [
+            7499200,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5489040,
+          "e": 548904.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 6800080,
+          "e": 680008.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7499200,
+          "e": 749920.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16047,
+            -30.0
+          ],
+          [
+            19065,
+            35.0
+          ],
+          [
+            20594,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16047,
+          "adc_u24": 16047
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19065,
+          "adc_u24": 19065
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 20594,
+          "adc_u24": 20594
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.779999999999994,
+        "final_err": 0.6499999999999844,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "FAIL_AD_WRITE",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_42": {
+      "port": "COM17",
+      "sn_hex_ascii": "34 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 42..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16382,
+          "temp": -30.0,
+          "e": 557708.0,
+          "rt": 5577080,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19498,
+          "temp": 35.0,
+          "e": 692439.0,
+          "rt": 6924390,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 21085,
+          "temp": 69.6,
+          "e": 763410.0,
+          "rt": 7634100,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5577080,
+            -30.0
+          ],
+          [
+            6924390,
+            35.0
+          ],
+          [
+            7634100,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5577080,
+          "e": 557708.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 6924390,
+          "e": 692439.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7634100,
+          "e": 763410.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16382,
+            -30.0
+          ],
+          [
+            19498,
+            35.0
+          ],
+          [
+            21085,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16382,
+          "adc_u24": 16382
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19498,
+          "adc_u24": 19498
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 21085,
+          "adc_u24": 21085
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.73,
+        "final_err": 0.5999999999999872,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "FAIL_AD_WRITE",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_03": {
+      "port": "COM34",
+      "sn_hex_ascii": "30 33 00 00 00 00 00 00 00 00 00 00    (ASCII: 03..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16411,
+          "temp": -30.0,
+          "e": 552768.0,
+          "rt": 5527680,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19550,
+          "temp": 35.0,
+          "e": 687756.0,
+          "rt": 6877560,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 21128,
+          "temp": 69.6,
+          "e": 759019.0,
+          "rt": 7590190,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5527680,
+            -30.0
+          ],
+          [
+            6877560,
+            35.0
+          ],
+          [
+            7590190,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5527680,
+          "e": 552768.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 6877560,
+          "e": 687756.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7590190,
+          "e": 759019.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16411,
+            -30.0
+          ],
+          [
+            19550,
+            35.0
+          ],
+          [
+            21128,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16411,
+          "adc_u24": 16411
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19550,
+          "adc_u24": 19550
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 21128,
+          "adc_u24": 21128
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.52,
+        "final_err": 0.38999999999999346,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_45": {
+      "port": "COM14",
+      "sn_hex_ascii": "34 35 00 00 00 00 00 00 00 00 00 00    (ASCII: 45..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16061,
+          "temp": -30.0,
+          "e": 550255.0,
+          "rt": 5502550,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19094,
+          "temp": 35.0,
+          "e": 681494.0,
+          "rt": 6814940,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 20618,
+          "temp": 69.6,
+          "e": 750393.0,
+          "rt": 7503930,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5502550,
+            -30.0
+          ],
+          [
+            6814940,
+            35.0
+          ],
+          [
+            7503930,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5502550,
+          "e": 550255.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 6814940,
+          "e": 681494.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7503930,
+          "e": 750393.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16061,
+            -30.0
+          ],
+          [
+            19094,
+            35.0
+          ],
+          [
+            20618,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16061,
+          "adc_u24": 16061
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19094,
+          "adc_u24": 19094
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 20618,
+          "adc_u24": 20618
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.8,
+        "final_err": 0.6699999999999875,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "FAIL_AD_WRITE",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_46": {
+      "port": "COM20",
+      "sn_hex_ascii": "34 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 46..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16224,
+          "temp": -30.0,
+          "e": 541842.0,
+          "rt": 5418420,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19351,
+          "temp": 35.0,
+          "e": 673976.0,
+          "rt": 6739760,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 20916,
+          "temp": 69.6,
+          "e": 743934.0,
+          "rt": 7439340,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5418420,
+            -30.0
+          ],
+          [
+            6739760,
+            35.0
+          ],
+          [
+            7439340,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5418420,
+          "e": 541842.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 6739760,
+          "e": 673976.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7439340,
+          "e": 743934.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16224,
+            -30.0
+          ],
+          [
+            19351,
+            35.0
+          ],
+          [
+            20916,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16224,
+          "adc_u24": 16224
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19351,
+          "adc_u24": 19351
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 20916,
+          "adc_u24": 20916
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.61999999999999,
+        "final_err": 0.4899999999999807,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "FAIL_AD_WRITE",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_04": {
+      "port": "COM30",
+      "sn_hex_ascii": "30 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 04..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16053,
+          "temp": -30.0,
+          "e": 539498.0,
+          "rt": 5394980,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19126,
+          "temp": 35.0,
+          "e": 671293.0,
+          "rt": 6712930,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 20710,
+          "temp": 69.6,
+          "e": 740710.0,
+          "rt": 7407100,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5394980,
+            -30.0
+          ],
+          [
+            6712930,
+            35.0
+          ],
+          [
+            7407100,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5394980,
+          "e": 539498.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 6712930,
+          "e": 671293.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7407100,
+          "e": 740710.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16053,
+            -30.0
+          ],
+          [
+            19126,
+            35.0
+          ],
+          [
+            20710,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16053,
+          "adc_u24": 16053
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19126,
+          "adc_u24": 19126
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 20710,
+          "adc_u24": 20710
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.564,
+        "final_err": 0.4339999999999904,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    },
+    "d_01": {
+      "port": "COM35",
+      "sn_hex_ascii": "30 31 00 00 00 00 00 00 00 00 00 00    (ASCII: 01..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16168,
+          "temp": -30.0,
+          "e": 549528.0,
+          "rt": 5495280,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 35.0,
+          "adc": 19251,
+          "temp": 35.0,
+          "e": 683277.0,
+          "rt": 6832770,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.6,
+          "adc": 20810,
+          "temp": 69.6,
+          "e": 753858.0,
+          "rt": 7538580,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5495280,
+            -30.0
+          ],
+          [
+            6832770,
+            35.0
+          ],
+          [
+            7538580,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5495280,
+          "e": 549528.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "rt_u24": 6832770,
+          "e": 683277.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "rt_u24": 7538580,
+          "e": 753858.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16168,
+            -30.0
+          ],
+          [
+            19251,
+            35.0
+          ],
+          [
+            20810,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16168,
+          "adc_u24": 16168
+        },
+        {
+          "idx": 2,
+          "temp_c": 35.0,
+          "t_u16_offset50": 85,
+          "adc": 19251,
+          "adc_u24": 19251
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.6,
+          "t_u16_offset50": 120,
+          "adc": 20810,
+          "adc_u24": 20810
+        }
+      ],
+      "verify_60c": {
+        "chamber_stable": 59.5,
+        "chamber_final": 60.13000000000001,
+        "f_final": 60.58,
+        "final_err": 0.44999999999998863,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS",
+      "events": [
+        {
+          "ts": "2026-02-26 15:25:10",
+          "type": "WRITE_STAGE_CONTACT_RECOVERY",
+          "detail": "factory_reset_rt_ad_then_rewrite"
+        }
+      ]
+    }
+  }
+}

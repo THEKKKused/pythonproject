@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-02-26 11:21:08",
+  "run_meta": {
+    "mode": "calibration",
+    "stage_temps": [
+      -30.0,
+      35.0,
+      70.0
+    ],
+    "temp_tol": 2.0,
+    "chamber_stable_s": 120,
+    "sensor_stable_s": 600,
+    "a_range_thresh": 500.0,
+    "min_samples": 30,
+    "use_chamber": true,
+    "chamber_ip": "192.168.50.2",
+    "chamber_port": 8000,
+    "iotdb_enable": true,
+    "iotdb_host": "127.0.0.1",
+    "iotdb_port": 6667,
+    "iotdb_sg": "root.h2",
+    "iotdb_downsample_ms": 1000,
+    "do_60c_verify": true,
+    "verify_temp": 60.0,
+    "verify_wait_s": 600,
+    "started_at": "2026-02-26 09:51:38"
+  },
+  "sensors": {}
+}

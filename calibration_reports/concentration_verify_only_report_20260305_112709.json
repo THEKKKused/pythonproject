@@ -1,0 +1,1193 @@
+{
+  "generated_at": "2026-03-05 11:27:09",
+  "run_meta": {
+    "mode": "concentration_verify_only",
+    "verify_tol_percent": 5.0,
+    "hold_seconds": 60,
+    "run_mode": "VERIFY_ONLY",
+    "iotdb_enable": true,
+    "iotdb_host": "127.0.0.1",
+    "iotdb_port": 6667,
+    "iotdb_sg": "root.h2",
+    "iotdb_downsample_ms": 1000,
+    "started_at": "2026-03-05 10:51:25"
+  },
+  "sensors": {
+    "d_06": {
+      "port": "COM36",
+      "sn_hex_ascii": "30 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 06..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9656.0,
+          "j_min": 9528,
+          "j_max": 9942,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -1.6099999999999999,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 20015.0,
+          "j_min": 19663,
+          "j_max": 20210,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -0.21250000000000002,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 29868.0,
+          "j_min": 29800,
+          "j_max": 29966,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -0.58,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_02": {
+      "port": "COM37",
+      "sn_hex_ascii": "30 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 02..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 12948.0,
+          "j_min": 12856,
+          "j_max": 12978,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": 6.619999999999999,
+          "ok": false
+        },
+        {
+          "ppm": 20100.0,
+          "j": 19449.0,
+          "j_min": 19287,
+          "j_max": 19930,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -1.6275000000000002,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 29483.0,
+          "j_min": 29441,
+          "j_max": 29585,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -1.5425,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "FAIL_VERIFY"
+    },
+    "d_10": {
+      "port": "COM38",
+      "sn_hex_ascii": "31 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 10..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9798.0,
+          "j_min": 9741,
+          "j_max": 9859,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -1.2550000000000001,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 19718.0,
+          "j_min": 19617,
+          "j_max": 20041,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -0.955,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 29681.0,
+          "j_min": 29079,
+          "j_max": 29944,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -1.0475,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_14": {
+      "port": "COM39",
+      "sn_hex_ascii": "31 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 14..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9587.0,
+          "j_min": 9543,
+          "j_max": 9720,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -1.7825,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 22807.0,
+          "j_min": 22747,
+          "j_max": 22879,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": 6.7675,
+          "ok": false
+        },
+        {
+          "ppm": 30100.0,
+          "j": 29200.0,
+          "j_min": 29137,
+          "j_max": 29293,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -2.25,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "FAIL_VERIFY"
+    },
+    "d_08": {
+      "port": "COM40",
+      "sn_hex_ascii": "30 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 08..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9353.0,
+          "j_min": 9276,
+          "j_max": 9408,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -2.3675,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 19454.0,
+          "j_min": 19368,
+          "j_max": 19476,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -1.6150000000000002,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 28185.0,
+          "j_min": 28063,
+          "j_max": 28245,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -4.7875,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_16": {
+      "port": "COM41",
+      "sn_hex_ascii": "31 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 16..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9270.0,
+          "j_min": 9244,
+          "j_max": 9346,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -2.5749999999999997,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 18917.0,
+          "j_min": 18802,
+          "j_max": 18973,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -2.9575,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 28969.0,
+          "j_min": 28894,
+          "j_max": 29012,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -2.8275,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_12": {
+      "port": "COM42",
+      "sn_hex_ascii": "31 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 12..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9552.0,
+          "j_min": 9419,
+          "j_max": 10081,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -1.87,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 19744.0,
+          "j_min": 19686,
+          "j_max": 19827,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -0.89,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 29364.0,
+          "j_min": 29317,
+          "j_max": 29435,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -1.8399999999999999,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_24": {
+      "port": "COM43",
+      "sn_hex_ascii": "32 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 24..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 10146.0,
+          "j_min": 10027,
+          "j_max": 10360,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -0.385,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 20430.0,
+          "j_min": 20327,
+          "j_max": 20498,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": 0.8250000000000001,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 30243.0,
+          "j_min": 30114,
+          "j_max": 30256,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": 0.3575,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_26": {
+      "port": "COM44",
+      "sn_hex_ascii": "32 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 26..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 10029.0,
+          "j_min": 9949,
+          "j_max": 10063,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -0.6775,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 19702.0,
+          "j_min": 19622,
+          "j_max": 19735,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -0.9950000000000001,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 28959.0,
+          "j_min": 28883,
+          "j_max": 29018,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -2.8525,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_31": {
+      "port": "COM45",
+      "sn_hex_ascii": "33 31 00 00 00 00 00 00 00 00 00 00    (ASCII: 31..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9047.0,
+          "j_min": 9000,
+          "j_max": 9210,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -3.1325,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 18566.0,
+          "j_min": 18538,
+          "j_max": 18634,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -3.8350000000000004,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 28710.0,
+          "j_min": 28626,
+          "j_max": 28738,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -3.4750000000000005,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_32": {
+      "port": "COM46",
+      "sn_hex_ascii": "33 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 32..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9902.0,
+          "j_min": 9853,
+          "j_max": 9968,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -0.9950000000000001,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 19723.0,
+          "j_min": 19672,
+          "j_max": 19788,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -0.9424999999999999,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 29372.0,
+          "j_min": 29330,
+          "j_max": 29447,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -1.82,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_11": {
+      "port": "COM47",
+      "sn_hex_ascii": "31 31 00 00 00 00 00 00 00 00 00 00    (ASCII: 11..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 10411.0,
+          "j_min": 9796,
+          "j_max": 11061,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": 0.2775,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 20035.0,
+          "j_min": 19880,
+          "j_max": 20192,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -0.1625,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 29637.0,
+          "j_min": 29604,
+          "j_max": 29696,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -1.1575,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_30": {
+      "port": "COM48",
+      "sn_hex_ascii": "33 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 30..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9658.0,
+          "j_min": 9527,
+          "j_max": 9836,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -1.6049999999999998,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 18997.0,
+          "j_min": 18919,
+          "j_max": 19100,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -2.7575,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 28785.0,
+          "j_min": 28691,
+          "j_max": 28821,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -3.2875,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_27": {
+      "port": "COM49",
+      "sn_hex_ascii": "32 37 00 00 00 00 00 00 00 00 00 00    (ASCII: 27..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 7909.0,
+          "j_min": 7617,
+          "j_max": 7976,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -5.9775,
+          "ok": false
+        },
+        {
+          "ppm": 20100.0,
+          "j": 25584.0,
+          "j_min": 25510,
+          "j_max": 25620,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": 13.71,
+          "ok": false
+        },
+        {
+          "ppm": 30100.0,
+          "j": 28971.0,
+          "j_min": 28840,
+          "j_max": 29050,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -2.8225,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "FAIL_VERIFY"
+    },
+    "d_28": {
+      "port": "COM50",
+      "sn_hex_ascii": "32 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 28..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9170.0,
+          "j_min": 9093,
+          "j_max": 9245,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -2.825,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 20394.0,
+          "j_min": 20209,
+          "j_max": 20537,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": 0.735,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 15181.0,
+          "j_min": 15043,
+          "j_max": 15256,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -37.2975,
+          "ok": false
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "FAIL_VERIFY"
+    },
+    "d_09": {
+      "port": "COM51",
+      "sn_hex_ascii": "30 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 09..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9467.0,
+          "j_min": 9375,
+          "j_max": 9494,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -2.0825,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 19456.0,
+          "j_min": 19406,
+          "j_max": 19538,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -1.6099999999999999,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 28398.0,
+          "j_min": 28364,
+          "j_max": 28532,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -4.255,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_04": {
+      "port": "COM52",
+      "sn_hex_ascii": "30 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 04..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9385.0,
+          "j_min": 9277,
+          "j_max": 9502,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -2.2875,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 19844.0,
+          "j_min": 19804,
+          "j_max": 19922,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -0.64,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 29457.0,
+          "j_min": 29406,
+          "j_max": 29521,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -1.6075,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_20": {
+      "port": "COM53",
+      "sn_hex_ascii": "32 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 20..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9739.0,
+          "j_min": 9668,
+          "j_max": 9796,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -1.4024999999999999,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 19217.0,
+          "j_min": 19122,
+          "j_max": 19282,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -2.2075,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 37069.0,
+          "j_min": 36965,
+          "j_max": 37114,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": 17.4225,
+          "ok": false
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "FAIL_VERIFY"
+    },
+    "d_05": {
+      "port": "COM54",
+      "sn_hex_ascii": "30 35 00 00 00 00 00 00 00 00 00 00    (ASCII: 05..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9929.0,
+          "j_min": 9902,
+          "j_max": 10028,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -0.9275,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 19419.0,
+          "j_min": 19309,
+          "j_max": 19527,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -1.7025,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 29003.0,
+          "j_min": 28953,
+          "j_max": 29072,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -2.7425,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    },
+    "d_29": {
+      "port": "COM55",
+      "sn_hex_ascii": "32 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 29..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9483.0,
+          "j_min": 9352,
+          "j_max": 9594,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -2.0425,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 19334.0,
+          "j_min": 19277,
+          "j_max": 19422,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -1.915,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 34309.0,
+          "j_min": 34253,
+          "j_max": 34454,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": 10.522499999999999,
+          "ok": false
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "FAIL_VERIFY"
+    },
+    "d_49": {
+      "port": "COM56",
+      "sn_hex_ascii": "34 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 49..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 12570.0,
+          "j_min": 12284,
+          "j_max": 12774,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": 5.675,
+          "ok": false
+        },
+        {
+          "ppm": 20100.0,
+          "j": 19700.0,
+          "j_min": 19689,
+          "j_max": 19712,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -1.0,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 29518.0,
+          "j_min": 29475,
+          "j_max": 29604,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -1.455,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "FAIL_VERIFY"
+    },
+    "d_50": {
+      "port": "COM57",
+      "sn_hex_ascii": "35 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 50..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 13039.0,
+          "j_min": 12998,
+          "j_max": 13109,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": 6.847499999999999,
+          "ok": false
+        },
+        {
+          "ppm": 20100.0,
+          "j": 19167.0,
+          "j_min": 19130,
+          "j_max": 19241,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": -2.3325,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 28777.0,
+          "j_min": 28739,
+          "j_max": 28855,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -3.3075,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "FAIL_VERIFY"
+    },
+    "d_13": {
+      "port": "COM58",
+      "sn_hex_ascii": "31 33 00 00 00 00 00 00 00 00 00 00    (ASCII: 13..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9070.0,
+          "j_min": 8985,
+          "j_max": 9151,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -3.075,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 22462.0,
+          "j_min": 22367,
+          "j_max": 22534,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": 5.905,
+          "ok": false
+        },
+        {
+          "ppm": 30100.0,
+          "j": 29054.0,
+          "j_min": 29026,
+          "j_max": 29121,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -2.6149999999999998,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "FAIL_VERIFY"
+    },
+    "d_03": {
+      "port": "COM59",
+      "sn_hex_ascii": "30 33 00 00 00 00 00 00 00 00 00 00    (ASCII: 03..........)",
+      "zero_n": null,
+      "zero": null,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [
+        {
+          "ppm": 10300.0,
+          "j": 9873.0,
+          "j_min": 9420,
+          "j_max": 10365,
+          "j_count": 290,
+          "hold_s": 60.0,
+          "err_percent": -1.0675000000000001,
+          "ok": true
+        },
+        {
+          "ppm": 20100.0,
+          "j": 20621.0,
+          "j_min": 20474,
+          "j_max": 20746,
+          "j_count": 294,
+          "hold_s": 60.0,
+          "err_percent": 1.3025,
+          "ok": true
+        },
+        {
+          "ppm": 30100.0,
+          "j": 29879.0,
+          "j_min": 29816,
+          "j_max": 29929,
+          "j_count": 295,
+          "hold_s": 60.0,
+          "err_percent": -0.5525,
+          "ok": true
+        }
+      ],
+      "verify_tol_percent": 5.0,
+      "hold_seconds": 60.0,
+      "run_mode": "VERIFY_ONLY",
+      "final": "PASS_VERIFY_ONLY"
+    }
+  }
+}

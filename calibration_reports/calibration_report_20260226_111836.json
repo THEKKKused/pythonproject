@@ -1,0 +1,1646 @@
+{
+  "generated_at": "2026-02-26 11:18:36",
+  "run_meta": {
+    "mode": "calibration",
+    "stage_temps": [
+      -30.0,
+      35.0,
+      70.0
+    ],
+    "temp_tol": 2.0,
+    "chamber_stable_s": 120,
+    "sensor_stable_s": 600,
+    "a_range_thresh": 500.0,
+    "min_samples": 30,
+    "use_chamber": true,
+    "chamber_ip": "192.168.50.2",
+    "chamber_port": 8000,
+    "iotdb_enable": true,
+    "iotdb_host": "127.0.0.1",
+    "iotdb_port": 6667,
+    "iotdb_sg": "root.h2",
+    "iotdb_downsample_ms": 1000,
+    "do_60c_verify": true,
+    "verify_temp": 60.0,
+    "verify_wait_s": 600,
+    "started_at": "2026-02-26 09:51:38"
+  },
+  "sensors": {
+    "d_33": {
+      "port": "COM16",
+      "sn_hex_ascii": "33 33 00 00 00 00 00 00 00 00 00 00    (ASCII: 33..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 15998,
+          "temp": -30.0,
+          "e": 550651.0,
+          "rt": 5506510,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 19076,
+          "temp": 34.8,
+          "e": 683182.0,
+          "rt": 6831820,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20609,
+          "temp": 69.5,
+          "e": 753270.0,
+          "rt": 7532700,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": false,
+      "rt_readback": null,
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5506510,
+          "e": 550651.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6831820,
+          "e": 683182.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7532700,
+          "e": 753270.0
+        }
+      ],
+      "ad_write_ok": false,
+      "ad_readback": null,
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 15998,
+          "adc_u24": 15998
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 19076,
+          "adc_u24": 19076
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20609,
+          "adc_u24": 20609
+        }
+      ],
+      "verify_60c": null,
+      "final": "FAIL_AD_WRITE"
+    },
+    "d_34": {
+      "port": "COM15",
+      "sn_hex_ascii": "33 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 34..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16147,
+          "temp": -30.0,
+          "e": 554686.0,
+          "rt": 5546860,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 19183,
+          "temp": 34.8,
+          "e": 687233.0,
+          "rt": 6872330,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20751,
+          "temp": 69.5,
+          "e": 757261.0,
+          "rt": 7572610,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": false,
+      "rt_readback": null,
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5546860,
+          "e": 554686.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6872330,
+          "e": 687233.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7572610,
+          "e": 757261.0
+        }
+      ],
+      "ad_write_ok": false,
+      "ad_readback": null,
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16147,
+          "adc_u24": 16147
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 19183,
+          "adc_u24": 19183
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20751,
+          "adc_u24": 20751
+        }
+      ],
+      "verify_60c": null,
+      "final": "FAIL_AD_WRITE"
+    },
+    "d_35": {
+      "port": "COM31",
+      "sn_hex_ascii": "33 35 00 00 00 00 00 00 00 00 00 00    (ASCII: 35..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 15640,
+          "temp": -30.0,
+          "e": 541410.0,
+          "rt": 5414100,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 18642,
+          "temp": 34.8,
+          "e": 672969.0,
+          "rt": 6729690,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20202,
+          "temp": 69.5,
+          "e": 742465.0,
+          "rt": 7424650,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5414100,
+            -30.0
+          ],
+          [
+            6729690,
+            35.0
+          ],
+          [
+            7424650,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5414100,
+          "e": 541410.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6729690,
+          "e": 672969.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7424650,
+          "e": 742465.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            15640,
+            -30.0
+          ],
+          [
+            18642,
+            35.0
+          ],
+          [
+            20202,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 15640,
+          "adc_u24": 15640
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 18642,
+          "adc_u24": 18642
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20202,
+          "adc_u24": 20202
+        }
+      ],
+      "verify_60c": null,
+      "final": "PASS_NO_60C"
+    },
+    "d_36": {
+      "port": "COM18",
+      "sn_hex_ascii": "33 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 36..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16430,
+          "temp": -30.0,
+          "e": 568963.0,
+          "rt": 5689630,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 19508,
+          "temp": 34.8,
+          "e": 705223.0,
+          "rt": 7052230,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 21067,
+          "temp": 69.5,
+          "e": 777207.0,
+          "rt": 7772070,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": false,
+      "rt_readback": null,
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5689630,
+          "e": 568963.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 7052230,
+          "e": 705223.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7772070,
+          "e": 777207.0
+        }
+      ],
+      "ad_write_ok": false,
+      "ad_readback": null,
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16430,
+          "adc_u24": 16430
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 19508,
+          "adc_u24": 19508
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 21067,
+          "adc_u24": 21067
+        }
+      ],
+      "verify_60c": null,
+      "final": "FAIL_AD_WRITE"
+    },
+    "d_37": {
+      "port": "COM32",
+      "sn_hex_ascii": "33 37 00 00 00 00 00 00 00 00 00 00    (ASCII: 37..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 15741,
+          "temp": -30.0,
+          "e": 535543.0,
+          "rt": 5355430,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 18746,
+          "temp": 34.8,
+          "e": 664948.0,
+          "rt": 6649480,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20285,
+          "temp": 69.5,
+          "e": 733734.0,
+          "rt": 7337340,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5355430,
+            -30.0
+          ],
+          [
+            6649480,
+            35.0
+          ],
+          [
+            7337340,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5355430,
+          "e": 535543.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6649480,
+          "e": 664948.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7337340,
+          "e": 733734.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            15741,
+            -30.0
+          ],
+          [
+            18746,
+            35.0
+          ],
+          [
+            20285,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 15741,
+          "adc_u24": 15741
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 18746,
+          "adc_u24": 18746
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20285,
+          "adc_u24": 20285
+        }
+      ],
+      "verify_60c": null,
+      "final": "PASS_NO_60C"
+    },
+    "d_38": {
+      "port": "COM19",
+      "sn_hex_ascii": "33 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 38..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16297,
+          "temp": -30.0,
+          "e": 553987.0,
+          "rt": 5539870,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 19382,
+          "temp": 34.8,
+          "e": 687335.0,
+          "rt": 6873350,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20943,
+          "temp": 69.5,
+          "e": 757521.0,
+          "rt": 7575210,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": false,
+      "rt_readback": null,
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5539870,
+          "e": 553987.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6873350,
+          "e": 687335.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7575210,
+          "e": 757521.0
+        }
+      ],
+      "ad_write_ok": false,
+      "ad_readback": null,
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16297,
+          "adc_u24": 16297
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 19382,
+          "adc_u24": 19382
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20943,
+          "adc_u24": 20943
+        }
+      ],
+      "verify_60c": null,
+      "final": "FAIL_AD_WRITE"
+    },
+    "d_39": {
+      "port": "COM28",
+      "sn_hex_ascii": "33 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 39..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16299,
+          "temp": -30.0,
+          "e": 562882.0,
+          "rt": 5628820,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 19362,
+          "temp": 34.8,
+          "e": 697237.0,
+          "rt": 6972370,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20923,
+          "temp": 69.5,
+          "e": 768833.0,
+          "rt": 7688330,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5628820,
+            -30.0
+          ],
+          [
+            6972370,
+            35.0
+          ],
+          [
+            7688330,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5628820,
+          "e": 562882.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6972370,
+          "e": 697237.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7688330,
+          "e": 768833.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16299,
+            -30.0
+          ],
+          [
+            19362,
+            35.0
+          ],
+          [
+            20923,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16299,
+          "adc_u24": 16299
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 19362,
+          "adc_u24": 19362
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20923,
+          "adc_u24": 20923
+        }
+      ],
+      "verify_60c": null,
+      "final": "PASS_NO_60C"
+    },
+    "d_40": {
+      "port": "COM33",
+      "sn_hex_ascii": "34 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 40..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 15894,
+          "temp": -30.0,
+          "e": 540506.0,
+          "rt": 5405060,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 18963,
+          "temp": 34.8,
+          "e": 672929.0,
+          "rt": 6729290,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20526,
+          "temp": 69.5,
+          "e": 742847.0,
+          "rt": 7428470,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5405060,
+            -30.0
+          ],
+          [
+            6729290,
+            35.0
+          ],
+          [
+            7428470,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5405060,
+          "e": 540506.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6729290,
+          "e": 672929.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7428470,
+          "e": 742847.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            15894,
+            -30.0
+          ],
+          [
+            18963,
+            35.0
+          ],
+          [
+            20526,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 15894,
+          "adc_u24": 15894
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 18963,
+          "adc_u24": 18963
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20526,
+          "adc_u24": 20526
+        }
+      ],
+      "verify_60c": null,
+      "final": "PASS_NO_60C"
+    },
+    "d_41": {
+      "port": "COM12",
+      "sn_hex_ascii": "34 31 00 00 00 00 00 00 00 00 00 00    (ASCII: 41..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16042,
+          "temp": -30.0,
+          "e": 548923.0,
+          "rt": 5489230,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 19075,
+          "temp": 34.8,
+          "e": 680342.0,
+          "rt": 6803420,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20587,
+          "temp": 69.5,
+          "e": 749823.0,
+          "rt": 7498230,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": false,
+      "rt_readback": null,
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5489230,
+          "e": 548923.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6803420,
+          "e": 680342.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7498230,
+          "e": 749823.0
+        }
+      ],
+      "ad_write_ok": false,
+      "ad_readback": null,
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16042,
+          "adc_u24": 16042
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 19075,
+          "adc_u24": 19075
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20587,
+          "adc_u24": 20587
+        }
+      ],
+      "verify_60c": null,
+      "final": "FAIL_AD_WRITE"
+    },
+    "d_42": {
+      "port": "COM17",
+      "sn_hex_ascii": "34 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 42..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16371,
+          "temp": -30.0,
+          "e": 557174.0,
+          "rt": 5571740,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 19493,
+          "temp": 34.8,
+          "e": 692019.0,
+          "rt": 6920190,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 21076,
+          "temp": 69.5,
+          "e": 763200.0,
+          "rt": 7632000,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": false,
+      "rt_readback": null,
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5571740,
+          "e": 557174.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6920190,
+          "e": 692019.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7632000,
+          "e": 763200.0
+        }
+      ],
+      "ad_write_ok": false,
+      "ad_readback": null,
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16371,
+          "adc_u24": 16371
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 19493,
+          "adc_u24": 19493
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 21076,
+          "adc_u24": 21076
+        }
+      ],
+      "verify_60c": null,
+      "final": "FAIL_AD_WRITE"
+    },
+    "d_43": {
+      "port": "COM29",
+      "sn_hex_ascii": "34 33 00 00 00 00 00 00 00 00 00 00    (ASCII: 43..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16319,
+          "temp": -30.0,
+          "e": 557589.0,
+          "rt": 5575890,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 19347,
+          "temp": 34.8,
+          "e": 689137.0,
+          "rt": 6891370,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20881,
+          "temp": 69.5,
+          "e": 759726.0,
+          "rt": 7597260,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5575890,
+            -30.0
+          ],
+          [
+            6891370,
+            35.0
+          ],
+          [
+            7597260,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5575890,
+          "e": 557589.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6891370,
+          "e": 689137.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7597260,
+          "e": 759726.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16319,
+            -30.0
+          ],
+          [
+            19347,
+            35.0
+          ],
+          [
+            20881,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16319,
+          "adc_u24": 16319
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 19347,
+          "adc_u24": 19347
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20881,
+          "adc_u24": 20881
+        }
+      ],
+      "verify_60c": null,
+      "final": "PASS_NO_60C"
+    },
+    "d_44": {
+      "port": "COM34",
+      "sn_hex_ascii": "34 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 44..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16089,
+          "temp": -30.0,
+          "e": 549881.0,
+          "rt": 5498810,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 19175,
+          "temp": 34.8,
+          "e": 684032.0,
+          "rt": 6840320,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20770,
+          "temp": 69.5,
+          "e": 754605.0,
+          "rt": 7546050,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5498810,
+            -30.0
+          ],
+          [
+            6840320,
+            35.0
+          ],
+          [
+            7546050,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5498810,
+          "e": 549881.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6840320,
+          "e": 684032.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7546050,
+          "e": 754605.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16089,
+            -30.0
+          ],
+          [
+            19175,
+            35.0
+          ],
+          [
+            20770,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16089,
+          "adc_u24": 16089
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 19175,
+          "adc_u24": 19175
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20770,
+          "adc_u24": 20770
+        }
+      ],
+      "verify_60c": null,
+      "final": "PASS_NO_60C"
+    },
+    "d_45": {
+      "port": "COM14",
+      "sn_hex_ascii": "34 35 00 00 00 00 00 00 00 00 00 00    (ASCII: 45..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16054,
+          "temp": -30.0,
+          "e": 549930.0,
+          "rt": 5499300,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 19086,
+          "temp": 34.8,
+          "e": 680743.0,
+          "rt": 6807430,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20611,
+          "temp": 69.5,
+          "e": 750099.0,
+          "rt": 7500990,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": false,
+      "rt_readback": null,
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5499300,
+          "e": 549930.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6807430,
+          "e": 680743.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7500990,
+          "e": 750099.0
+        }
+      ],
+      "ad_write_ok": false,
+      "ad_readback": null,
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16054,
+          "adc_u24": 16054
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 19086,
+          "adc_u24": 19086
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20611,
+          "adc_u24": 20611
+        }
+      ],
+      "verify_60c": null,
+      "final": "FAIL_AD_WRITE"
+    },
+    "d_46": {
+      "port": "COM20",
+      "sn_hex_ascii": "34 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 46..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16212,
+          "temp": -30.0,
+          "e": 541753.0,
+          "rt": 5417530,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 19348,
+          "temp": 34.8,
+          "e": 673906.0,
+          "rt": 6739060,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20899,
+          "temp": 69.5,
+          "e": 743517.0,
+          "rt": 7435170,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": false,
+      "rt_readback": null,
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5417530,
+          "e": 541753.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6739060,
+          "e": 673906.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7435170,
+          "e": 743517.0
+        }
+      ],
+      "ad_write_ok": false,
+      "ad_readback": null,
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16212,
+          "adc_u24": 16212
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 19348,
+          "adc_u24": 19348
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20899,
+          "adc_u24": 20899
+        }
+      ],
+      "verify_60c": null,
+      "final": "FAIL_AD_WRITE"
+    },
+    "d_47": {
+      "port": "COM30",
+      "sn_hex_ascii": "34 37 00 00 00 00 00 00 00 00 00 00    (ASCII: 47..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 15945,
+          "temp": -30.0,
+          "e": 550489.0,
+          "rt": 5504890,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 18988,
+          "temp": 34.8,
+          "e": 683453.0,
+          "rt": 6834530,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20532,
+          "temp": 69.5,
+          "e": 753945.0,
+          "rt": 7539450,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5504890,
+            -30.0
+          ],
+          [
+            6834530,
+            35.0
+          ],
+          [
+            7539450,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5504890,
+          "e": 550489.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6834530,
+          "e": 683453.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7539450,
+          "e": 753945.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            15945,
+            -30.0
+          ],
+          [
+            18988,
+            35.0
+          ],
+          [
+            20532,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 15945,
+          "adc_u24": 15945
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 18988,
+          "adc_u24": 18988
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20532,
+          "adc_u24": 20532
+        }
+      ],
+      "verify_60c": null,
+      "final": "PASS_NO_60C"
+    },
+    "d_48": {
+      "port": "COM35",
+      "sn_hex_ascii": "34 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 48..........)",
+      "points": {
+        "P1": {
+          "target": -30.0,
+          "chamber": -30.0,
+          "adc": 16223,
+          "temp": -30.0,
+          "e": 560618.0,
+          "rt": 5606180,
+          "source": "AUTO"
+        },
+        "P2": {
+          "target": 35.0,
+          "chamber": 34.8,
+          "adc": 19363,
+          "temp": 34.8,
+          "e": 697380.0,
+          "rt": 6973800,
+          "source": "AUTO"
+        },
+        "P3": {
+          "target": 70.0,
+          "chamber": 69.5,
+          "adc": 20930,
+          "temp": 69.5,
+          "e": 769199.0,
+          "rt": 7691990,
+          "source": "AUTO"
+        }
+      },
+      "rt_write_ok": true,
+      "rt_readback": {
+        "num": 3,
+        "points": [
+          [
+            5606180,
+            -30.0
+          ],
+          [
+            6973800,
+            35.0
+          ],
+          [
+            7691990,
+            70.0
+          ]
+        ]
+      },
+      "rt_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "rt_u24": 5606180,
+          "e": 560618.0
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "rt_u24": 6973800,
+          "e": 697380.0
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "rt_u24": 7691990,
+          "e": 769199.0
+        }
+      ],
+      "ad_write_ok": true,
+      "ad_readback": {
+        "num": 3,
+        "points": [
+          [
+            16223,
+            -30.0
+          ],
+          [
+            19363,
+            35.0
+          ],
+          [
+            20930,
+            70.0
+          ]
+        ]
+      },
+      "ad_write_points": [
+        {
+          "idx": 1,
+          "temp_c": -30.0,
+          "t_u16_offset50": 20,
+          "adc": 16223,
+          "adc_u24": 16223
+        },
+        {
+          "idx": 2,
+          "temp_c": 34.8,
+          "t_u16_offset50": 85,
+          "adc": 19363,
+          "adc_u24": 19363
+        },
+        {
+          "idx": 3,
+          "temp_c": 69.5,
+          "t_u16_offset50": 120,
+          "adc": 20930,
+          "adc_u24": 20930
+        }
+      ],
+      "verify_60c": null,
+      "final": "PASS_NO_60C"
+    }
+  }
+}

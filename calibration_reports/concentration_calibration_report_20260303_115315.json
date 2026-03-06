@@ -1,0 +1,1146 @@
+{
+  "generated_at": "2026-03-03 11:53:15",
+  "run_meta": {
+    "mode": "concentration_calibration",
+    "max_ppm": 40000,
+    "min_ppm": 1000,
+    "verify_tol_percent": 5.0,
+    "do_factory_reset_at_start": true,
+    "iotdb_enable": true,
+    "iotdb_host": "127.0.0.1",
+    "iotdb_port": 6667,
+    "iotdb_sg": "root.h2",
+    "iotdb_downsample_ms": 1000,
+    "started_at": "2026-03-03 11:16:18"
+  },
+  "sensors": {
+    "d_06": {
+      "port": "COM36",
+      "sn_hex_ascii": "30 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 06..........)",
+      "zero_n": -189,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 969,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1575,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2505,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_02": {
+      "port": "COM37",
+      "sn_hex_ascii": "30 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 02..........)",
+      "zero_n": -304,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 908,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1434,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2274,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_10": {
+      "port": "COM38",
+      "sn_hex_ascii": "31 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 10..........)",
+      "zero_n": -321,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 934,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1820,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2384,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_14": {
+      "port": "COM39",
+      "sn_hex_ascii": "31 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 14..........)",
+      "zero_n": -530,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 930,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1810,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2260,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_08": {
+      "port": "COM40",
+      "sn_hex_ascii": "30 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 08..........)",
+      "zero_n": -216,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 906,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1750,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2336,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_16": {
+      "port": "COM41",
+      "sn_hex_ascii": "31 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 16..........)",
+      "zero_n": -240,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 932,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1760,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2379,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_12": {
+      "port": "COM42",
+      "sn_hex_ascii": "31 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 12..........)",
+      "zero_n": -100,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 880,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1440,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2280,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_18": {
+      "port": "COM43",
+      "sn_hex_ascii": "31 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 18..........)",
+      "zero_n": -25706,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 0,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 542,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 1776,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 0
+          },
+          {
+            "ppm": 30100,
+            "m": 1000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_26": {
+      "port": "COM44",
+      "sn_hex_ascii": "32 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 26..........)",
+      "zero_n": -102,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 889,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1472,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2336,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_31": {
+      "port": "COM45",
+      "sn_hex_ascii": "33 31 00 00 00 00 00 00 00 00 00 00    (ASCII: 31..........)",
+      "zero_n": -260,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 950,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1760,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2494,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_32": {
+      "port": "COM46",
+      "sn_hex_ascii": "33 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 32..........)",
+      "zero_n": -127,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 787,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1562,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2368,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_11": {
+      "port": "COM47",
+      "sn_hex_ascii": "31 31 00 00 00 00 00 00 00 00 00 00    (ASCII: 11..........)",
+      "zero_n": -240,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 920,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1730,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2440,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_30": {
+      "port": "COM48",
+      "sn_hex_ascii": "33 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 30..........)",
+      "zero_n": -226,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 827,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1596,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2306,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_27": {
+      "port": "COM49",
+      "sn_hex_ascii": "32 37 00 00 00 00 00 00 00 00 00 00    (ASCII: 27..........)",
+      "zero_n": -190,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 888,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1746,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2463,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_28": {
+      "port": "COM50",
+      "sn_hex_ascii": "32 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 28..........)",
+      "zero_n": -600,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 900,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1710,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2343,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_09": {
+      "port": "COM51",
+      "sn_hex_ascii": "30 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 09..........)",
+      "zero_n": -110,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 860,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1660,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2370,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_04": {
+      "port": "COM52",
+      "sn_hex_ascii": "30 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 04..........)",
+      "zero_n": -278,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 588,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1467,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2327,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_20": {
+      "port": "COM53",
+      "sn_hex_ascii": "32 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 20..........)",
+      "zero_n": 120,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 653,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1493,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2360,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_05": {
+      "port": "COM54",
+      "sn_hex_ascii": "30 35 00 00 00 00 00 00 00 00 00 00    (ASCII: 05..........)",
+      "zero_n": -306,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 866,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1436,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2261,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_29": {
+      "port": "COM55",
+      "sn_hex_ascii": "32 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 29..........)",
+      "zero_n": -280,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 887,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1703,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2523,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_49": {
+      "port": "COM56",
+      "sn_hex_ascii": "34 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 49..........)",
+      "zero_n": -255,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 928,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1496,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2395,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_50": {
+      "port": "COM57",
+      "sn_hex_ascii": "35 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 50..........)",
+      "zero_n": -270,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 920,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1490,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2350,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_13": {
+      "port": "COM58",
+      "sn_hex_ascii": "31 33 00 00 00 00 00 00 00 00 00 00    (ASCII: 13..........)",
+      "zero_n": -214,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 896,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1734,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2324,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_03": {
+      "port": "COM59",
+      "sn_hex_ascii": "30 33 00 00 00 00 00 00 00 00 00 00    (ASCII: 03..........)",
+      "zero_n": -324,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10100,
+          "m": 953,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 20000,
+          "m": 1834,
+          "source": "AUTO"
+        },
+        {
+          "ppm": 30100,
+          "m": 2473,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": {
+        "num": 3,
+        "points": [
+          {
+            "ppm": 10100,
+            "m": 0
+          },
+          {
+            "ppm": 20000,
+            "m": 1000
+          },
+          {
+            "ppm": 30100,
+            "m": 2000
+          }
+        ]
+      },
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    }
+  }
+}

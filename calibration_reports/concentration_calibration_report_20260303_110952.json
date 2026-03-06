@@ -1,0 +1,522 @@
+{
+  "generated_at": "2026-03-03 11:09:52",
+  "run_meta": {
+    "mode": "concentration_calibration",
+    "max_ppm": 40000,
+    "min_ppm": 1000,
+    "verify_tol_percent": 5.0,
+    "do_factory_reset_at_start": true,
+    "iotdb_enable": true,
+    "iotdb_host": "127.0.0.1",
+    "iotdb_port": 6667,
+    "iotdb_sg": "root.h2",
+    "iotdb_downsample_ms": 1000,
+    "started_at": "2026-03-03 10:43:56"
+  },
+  "sensors": {
+    "d_06": {
+      "port": "COM36",
+      "sn_hex_ascii": "30 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 06..........)",
+      "zero_n": -290,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 1081,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_02": {
+      "port": "COM37",
+      "sn_hex_ascii": "30 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 02..........)",
+      "zero_n": -350,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 969,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_10": {
+      "port": "COM38",
+      "sn_hex_ascii": "31 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 10..........)",
+      "zero_n": -88,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 708,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_14": {
+      "port": "COM39",
+      "sn_hex_ascii": "31 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 14..........)",
+      "zero_n": -640,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 1056,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_08": {
+      "port": "COM40",
+      "sn_hex_ascii": "30 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 08..........)",
+      "zero_n": -34,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 748,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_16": {
+      "port": "COM41",
+      "sn_hex_ascii": "31 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 16..........)",
+      "zero_n": -330,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 1042,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_12": {
+      "port": "COM42",
+      "sn_hex_ascii": "31 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 12..........)",
+      "zero_n": -120,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 920,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_18": {
+      "port": "COM43",
+      "sn_hex_ascii": "31 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 18..........)",
+      "zero_n": -26230,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 0,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_26": {
+      "port": "COM44",
+      "sn_hex_ascii": "32 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 26..........)",
+      "zero_n": -70,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 860,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_31": {
+      "port": "COM45",
+      "sn_hex_ascii": "33 31 00 00 00 00 00 00 00 00 00 00    (ASCII: 31..........)",
+      "zero_n": -201,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 884,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_32": {
+      "port": "COM46",
+      "sn_hex_ascii": "33 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 32..........)",
+      "zero_n": -100,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 780,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_11": {
+      "port": "COM47",
+      "sn_hex_ascii": "31 31 00 00 00 00 00 00 00 00 00 00    (ASCII: 11..........)",
+      "zero_n": -198,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 878,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_30": {
+      "port": "COM48",
+      "sn_hex_ascii": "33 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 30..........)",
+      "zero_n": -180,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 800,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_27": {
+      "port": "COM49",
+      "sn_hex_ascii": "32 37 00 00 00 00 00 00 00 00 00 00    (ASCII: 27..........)",
+      "zero_n": -175,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 895,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_28": {
+      "port": "COM50",
+      "sn_hex_ascii": "32 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 28..........)",
+      "zero_n": -592,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 897,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_09": {
+      "port": "COM51",
+      "sn_hex_ascii": "30 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 09..........)",
+      "zero_n": -31,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 806,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_04": {
+      "port": "COM52",
+      "sn_hex_ascii": "30 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 04..........)",
+      "zero_n": -341,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 679,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_20": {
+      "port": "COM53",
+      "sn_hex_ascii": "32 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 20..........)",
+      "zero_n": 94,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 720,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_05": {
+      "port": "COM54",
+      "sn_hex_ascii": "30 35 00 00 00 00 00 00 00 00 00 00    (ASCII: 05..........)",
+      "zero_n": -400,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 934,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_29": {
+      "port": "COM55",
+      "sn_hex_ascii": "32 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 29..........)",
+      "zero_n": 30,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 607,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_49": {
+      "port": "COM56",
+      "sn_hex_ascii": "34 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 49..........)",
+      "zero_n": -320,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 1019,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_50": {
+      "port": "COM57",
+      "sn_hex_ascii": "35 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 50..........)",
+      "zero_n": -288,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 968,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_13": {
+      "port": "COM58",
+      "sn_hex_ascii": "31 33 00 00 00 00 00 00 00 00 00 00    (ASCII: 13..........)",
+      "zero_n": -290,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 1005,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    },
+    "d_03": {
+      "port": "COM59",
+      "sn_hex_ascii": "30 33 00 00 00 00 00 00 00 00 00 00    (ASCII: 03..........)",
+      "zero_n": -150,
+      "range": {
+        "max_ppm": 40000,
+        "min_ppm": 1000
+      },
+      "cal_points": [
+        {
+          "ppm": 10300,
+          "m": 792,
+          "source": "AUTO"
+        }
+      ],
+      "conc_write_ok": false,
+      "conc_readback": null,
+      "verify_points": [],
+      "verify_tol_percent": 5.0,
+      "final": "FAIL_WRITE"
+    }
+  }
+}

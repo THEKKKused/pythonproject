@@ -1,0 +1,262 @@
+{
+  "generated_at": "2026-02-26 09:07:32",
+  "run_meta": {
+    "mode": "verify_only",
+    "temp_tol": 2.0,
+    "chamber_stable_s": 120,
+    "sensor_stable_s": 600,
+    "use_chamber": true,
+    "chamber_ip": "192.168.50.2",
+    "chamber_port": 8000,
+    "iotdb_enable": true,
+    "iotdb_host": "127.0.0.1",
+    "iotdb_port": 6667,
+    "iotdb_sg": "root.h2",
+    "iotdb_downsample_ms": 1000,
+    "verify_temp": 60.0,
+    "verify_wait_s": 600,
+    "started_at": "2026-02-26 08:53:03"
+  },
+  "sensors": {
+    "d_28": {
+      "port": "COM16",
+      "sn_hex": "32 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 28..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.724000000000004,
+        "final_err": -0.245999999999988,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_27": {
+      "port": "COM15",
+      "sn_hex": "32 37 00 00 00 00 00 00 00 00 00 00    (ASCII: 27..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.355999999999995,
+        "final_err": -0.6139999999999972,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_24": {
+      "port": "COM31",
+      "sn_hex": "32 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 24..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.7,
+        "final_err": -0.2699999999999889,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_30": {
+      "port": "COM18",
+      "sn_hex": "33 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 30..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.42999999999999,
+        "final_err": -0.5399999999999991,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_11": {
+      "port": "COM32",
+      "sn_hex": "31 31 00 00 00 00 00 00 00 00 00 00    (ASCII: 11..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.568000000000005,
+        "final_err": -0.4019999999999868,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_31": {
+      "port": "COM19",
+      "sn_hex": "33 31 00 00 00 00 00 00 00 00 00 00    (ASCII: 31..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.778,
+        "final_err": -0.19199999999999307,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_15": {
+      "port": "COM28",
+      "sn_hex": "31 35 00 00 00 00 00 00 00 00 00 00    (ASCII: 15..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.581999999999994,
+        "final_err": -0.3879999999999981,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_12": {
+      "port": "COM33",
+      "sn_hex": "31 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 12..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.446000000000005,
+        "final_err": -0.5239999999999867,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_25": {
+      "port": "COM12",
+      "sn_hex": "32 35 00 00 00 00 00 00 00 00 00 00    (ASCII: 25..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 60.02,
+        "final_err": 0.05000000000001137,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_29": {
+      "port": "COM17",
+      "sn_hex": "32 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 29..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.465999999999994,
+        "final_err": -0.5039999999999978,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_13": {
+      "port": "COM29",
+      "sn_hex": "31 33 00 00 00 00 00 00 00 00 00 00    (ASCII: 13..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.846000000000004,
+        "final_err": -0.12399999999998812,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_14": {
+      "port": "COM34",
+      "sn_hex": "31 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 14..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.55,
+        "final_err": -0.4199999999999946,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_26": {
+      "port": "COM14",
+      "sn_hex": "32 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 26..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 60.092000000000006,
+        "final_err": 0.1220000000000141,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_32": {
+      "port": "COM20",
+      "sn_hex": "33 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 32..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.516,
+        "final_err": -0.4539999999999935,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_09": {
+      "port": "COM30",
+      "sn_hex": "30 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 09..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.831999999999994,
+        "final_err": -0.13799999999999812,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_10": {
+      "port": "COM35",
+      "sn_hex": "31 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 10..........)",
+      "verify_60c": {
+        "chamber_stable": 59.9,
+        "chamber_final": 59.96999999999999,
+        "f_final": 59.55800000000001,
+        "final_err": -0.4119999999999848,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    }
+  }
+}

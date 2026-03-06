@@ -1,0 +1,247 @@
+{
+  "generated_at": "2026-02-26 11:58:54",
+  "run_meta": {
+    "mode": "verify_only",
+    "temp_tol": 2.0,
+    "chamber_stable_s": 120,
+    "sensor_stable_s": 600,
+    "use_chamber": true,
+    "chamber_ip": "192.168.50.2",
+    "chamber_port": 8000,
+    "iotdb_enable": true,
+    "iotdb_host": "127.0.0.1",
+    "iotdb_port": 6667,
+    "iotdb_sg": "root.h2",
+    "iotdb_downsample_ms": 1000,
+    "verify_temp": 60.0,
+    "verify_wait_s": 600,
+    "started_at": "2026-02-26 11:43:57"
+  },
+  "sensors": {
+    "d_34": {
+      "port": "COM15",
+      "sn_hex": "33 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 34..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 150.0,
+        "final_err": 90.08000000000001,
+        "ok": false,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "不合格，需重新标定"
+    },
+    "d_35": {
+      "port": "COM31",
+      "sn_hex": "33 35 00 00 00 00 00 00 00 00 00 00    (ASCII: 35..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 60.19,
+        "final_err": 0.2700000000000031,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_36": {
+      "port": "COM18",
+      "sn_hex": "33 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 36..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 150.0,
+        "final_err": 90.08000000000001,
+        "ok": false,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "不合格，需重新标定"
+    },
+    "d_37": {
+      "port": "COM32",
+      "sn_hex": "33 37 00 00 00 00 00 00 00 00 00 00    (ASCII: 37..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 60.49400000000001,
+        "final_err": 0.5740000000000123,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_38": {
+      "port": "COM19",
+      "sn_hex": "33 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 38..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 150.0,
+        "final_err": 90.08000000000001,
+        "ok": false,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "不合格，需重新标定"
+    },
+    "d_39": {
+      "port": "COM28",
+      "sn_hex": "33 39 00 00 00 00 00 00 00 00 00 00    (ASCII: 39..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 60.61,
+        "final_err": 0.6900000000000048,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_40": {
+      "port": "COM33",
+      "sn_hex": "34 30 00 00 00 00 00 00 00 00 00 00    (ASCII: 40..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 60.208000000000006,
+        "final_err": 0.2880000000000109,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_41": {
+      "port": "COM12",
+      "sn_hex": "34 31 00 00 00 00 00 00 00 00 00 00    (ASCII: 41..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 150.0,
+        "final_err": 90.08000000000001,
+        "ok": false,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "不合格，需重新标定"
+    },
+    "d_42": {
+      "port": "COM17",
+      "sn_hex": "34 32 00 00 00 00 00 00 00 00 00 00    (ASCII: 42..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 150.0,
+        "final_err": 90.08000000000001,
+        "ok": false,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "不合格，需重新标定"
+    },
+    "d_43": {
+      "port": "COM29",
+      "sn_hex": "34 33 00 00 00 00 00 00 00 00 00 00    (ASCII: 43..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 61.05400000000001,
+        "final_err": 1.1340000000000146,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_44": {
+      "port": "COM34",
+      "sn_hex": "34 34 00 00 00 00 00 00 00 00 00 00    (ASCII: 44..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 60.15,
+        "final_err": 0.23000000000000398,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_45": {
+      "port": "COM14",
+      "sn_hex": "34 35 00 00 00 00 00 00 00 00 00 00    (ASCII: 45..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 150.0,
+        "final_err": 90.08000000000001,
+        "ok": false,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "不合格，需重新标定"
+    },
+    "d_46": {
+      "port": "COM20",
+      "sn_hex": "34 36 00 00 00 00 00 00 00 00 00 00    (ASCII: 46..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 150.0,
+        "final_err": 90.08000000000001,
+        "ok": false,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "不合格，需重新标定"
+    },
+    "d_47": {
+      "port": "COM30",
+      "sn_hex": "34 37 00 00 00 00 00 00 00 00 00 00    (ASCII: 47..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 60.71,
+        "final_err": 0.7900000000000063,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    },
+    "d_48": {
+      "port": "COM35",
+      "sn_hex": "34 38 00 00 00 00 00 00 00 00 00 00    (ASCII: 48..........)",
+      "verify_60c": {
+        "chamber_stable": 59.6,
+        "chamber_final": 59.919999999999995,
+        "f_final": 60.13000000000001,
+        "final_err": 0.21000000000001506,
+        "ok": true,
+        "tol": 2.0,
+        "wait_s": 600,
+        "mode": "end_only"
+      },
+      "final": "PASS"
+    }
+  }
+}
